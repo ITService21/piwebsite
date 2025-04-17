@@ -44,6 +44,16 @@
     }
 }
 
+.logo-img {
+    max-height: 80px;      /* Adjust height */
+    width: auto;           /* Keep aspect ratio */
+    display: block;        /* Remove inline gaps */
+    margin: 0 auto;        /* Center the logo horizontally */
+    object-fit: contain;   /* Ensures no distortion */
+    background-color: #FFFFFF;
+    border-radius: 10px;
+  }
+
 #spinner {
     opacity: 0;
     visibility: hidden;
